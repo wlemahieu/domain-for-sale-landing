@@ -1,0 +1,17 @@
+body, #root {
+  height: 100vh;
+}
+
+a {
+  cursor: pointer;
+}
+
+#root {
+  --featured-img: linear-gradient(180deg,#afafaf,#262626);
+  --bg-blend-mode: overlay;
+  background-color: #262626;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(25% 25% at top center,rgba(0,0,0,.66),#262626),var(--featured-img);
+  background-size: 120% 2000px,100% 2000px;
+}
