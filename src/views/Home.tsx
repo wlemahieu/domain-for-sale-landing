@@ -21,15 +21,8 @@ const Home: FC = () => {
         &nbsp;is for sale!
       </Typography>
       <Container maxWidth="sm">
-        <Button
-          variant="contained"
-          color="primary"
-          fullWidth
-          href={`https://pugsllc.com/contact?domain=${loc}`}
-          target="_blank"
-          rel="external nofollow noopener"
-        >
-          Learn more
+        <Button variant="contained" color="primary" fullWidth href={`https://pugsllc.com/contact?domain=${loc}`}>
+          Contact Pugs, LLC to learn more
         </Button>
       </Container>
     </Container>
