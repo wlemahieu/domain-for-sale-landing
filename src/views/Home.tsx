@@ -14,8 +14,11 @@ const Home: FC = () => {
   const loc = location();
   return (
     <Container maxWidth="lg" sx={{ textAlign: 'center', pt: 10, pb: 10 }}>
-      <Typography variant="h1" gutterBottom color="lightgreen">
-        {loc} is for sale
+      <Typography variant="h1" component="span" gutterBottom color="lightgreen" sx={{ wordWrap: 'anywhere' }}>
+        {loc}
+      </Typography>
+      <Typography variant="h2" component="span" gutterBottom color="lightblue" sx={{ wordWrap: 'anywhere' }}>
+        &nbsp;is for sale!
       </Typography>
       <Container maxWidth="sm">
         <Button
